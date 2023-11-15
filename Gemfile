@@ -9,6 +9,7 @@ gem "rails", "~> 7.0.4"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
+
 # Use mysql as the database for Active Record
 gem "mysql2", "~> 0.5"
 
@@ -56,6 +57,9 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
+  gem 'rubocop-performance', '~> 1.16'
+  gem 'rubocop-rails', '~> 2.18'
+  gem 'rubocop-rspec', '~> 2.19'
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
@@ -70,7 +74,4 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
-
-gem 'wxruby', '~> 2.0', '>= 2.0.1'
-gem 'wxsugar'
 
