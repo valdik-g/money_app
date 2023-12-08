@@ -1,2 +1,2 @@
-class Profit 
+class Profit < ApplicationRecord
 end

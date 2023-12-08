@@ -1,2 +1,2 @@
-class Report
+class Report < ApplicationRecord
 end

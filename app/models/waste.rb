@@ -1,2 +1,2 @@
-class Waste
+class Waste < ApplicationRecord
 end
